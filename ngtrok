@@ -1,0 +1,8 @@
+1.安装
+2.修改 .ngtrok 文件
+
+	加入两行：
+		server_addr: "tunnel.mobi:44433"
+		trust_host_root_certs: true
+
+3.运行： ngrok -subdomain foreverchu 80
