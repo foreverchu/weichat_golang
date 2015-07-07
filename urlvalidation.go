@@ -12,7 +12,7 @@ import (
 )
 
 const (
-	token = "wechat4go"
+	token = "123456789"
 )
 
 func makeSignature(timestamp, nonce string) string {
